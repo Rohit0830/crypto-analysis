@@ -45,10 +45,3 @@ VAR change7d = SELECTEDVALUE(crypto[price_change_percentage_7d_in_currency], 0)
 RETURN
 price * (1 + change7d / 100)
 ```
-
----
-
-If you want, I can:
-- Add more measures in the same format
-- Add usage examples or visualization notes
-- Export these measures to a separate `.md` per measure
